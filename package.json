@@ -1,0 +1,25 @@
+{
+    "name": "npm_test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha test",
+        "build": "node index.js && node index_2.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ElenaSinianskaya/npm-test.git"
+    },
+    "author": "Sinianskaya Elena",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ElenaSinianskaya/npm-test/issues"
+    },
+    "homepage": "https://github.com/ElenaSinianskaya/npm-test#readme",
+    "devDependencies": {
+        "bootstrap": "^4.1.1",
+        "mocha": "^5.2.0"
+    },
+    "description": ""
+}
